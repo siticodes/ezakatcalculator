@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">e-Zakat Calculator</string>
+    <string-array name="status">
+        <item>Keep</item>
+        <item>Wear</item>
+    </string-array>
+    <string name="copyright">Copyright: LembagaZakatSelangor</string>
+    <string name="About_text"><a href="https://github.com/siticodes/ezakatcalculator">Source Code Link</a></string>
+    <string name="devName">Name: SITI NURHALIZA BINTI MAT KHAMIS</string>
+    <string name="devID">Student ID: 2020476478</string>
+    <string name="group">Group: D1CS2405A</string>
+    <string name="pCode">Program Code: CS240</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:paddingLeft="20dip"
+    android:paddingRight="20dip"
+    android:paddingTop="20dip"
+    android:background="@drawable/background"
+    tools:context=".AboutActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="TODO"
+        android:src="@drawable/goldlogo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dip"
+        android:text="e-Zakat Calculator"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dip"
+        android:text="Copyright: LembagaZakatSelangor"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textViewLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="11dip"
+        android:layout_marginRight="16dip"
+        android:text="Source Code Link"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="14dp"
+        android:text="Name: SITI NURHALIZA BINTI MAT KHAMIS"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="Student ID: 2020476478"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView4"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="Group: D1CS2405A"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView5"
+        android:layout_marginLeft="16dip"
+        android:layout_marginTop="2dp"
+        android:text="Program Code: CS240"
+        android:textColor="@color/black"
+        android:textColorLink="@color/black" />
+
+</RelativeLayout>
